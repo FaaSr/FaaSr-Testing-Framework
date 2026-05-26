@@ -42,4 +42,4 @@ if [ -z "$WORKFLOW_FILE" ]; then
 fi
 
 export $(cat .env | xargs)
-python -m framework.workflow_runner --workflow-file $WORKFLOW_FILE
+uv run python -m framework.workflow_runner --workflow-file $WORKFLOW_FILE

@@ -17,12 +17,7 @@ This repository contains the following main folders:
 
 To contribute workflows for integration testing, it is recommended to fork this repository and create a pull request with your integration test.
 
-After forking the repository, initialize your Python environment with `uv`:
-
-```bash
-uv sync
-source .venv/bin/activate
-```
+After forking the repository, initialize your Python environment with `uv sync`.
 
 Next, make a copy of [`.env.template`](./.env.template) named `.env` and initialize the following variables:
 

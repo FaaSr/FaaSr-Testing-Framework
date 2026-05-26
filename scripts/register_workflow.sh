@@ -49,5 +49,5 @@ fi
 
 export $(cat .env | xargs)
 cd faasr_workflow
-python scripts/register_workflow.py --workflow-file "../$WORKFLOW_FILE"
+uv run python scripts/register_workflow.py --workflow-file "../$WORKFLOW_FILE"
 git pull
